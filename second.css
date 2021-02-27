@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.row-section {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+}
+.row {
+    display: table-cell;
+    overflow: auto;
+    width: 50%;
+    box-sizing: border-box;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    vertical-align: middle;
+}
+
+.text-row {
+    height: 500px;
+}
+
+@media only screen and (max-width: 899px) {
+  .row {
+      display: block;
+      width: 100%;
+      vertical-align: middle;
+  }
+  .row h2, p {
+      display: inline-block;
+      vertical-align: middle;
+      line-height: normal;
+      align-self: center;
+  }
+
+  .text-row {
+      height: 200px
+  }
+}
