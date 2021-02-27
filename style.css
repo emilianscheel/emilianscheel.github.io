@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+
+
+
+
+/* SOZIALE NETZE */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: .none;
+    display: inline-block;
+    margin: 5px;
+}
+
+.social-icons {
+    width: 28px;
+    height: 28px;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Montserrat', cursive;
+}
+
+body {
+    margin: 0;
+    padding-top: 50px
+}
+
+
+
+
+
+
+
+
+/* SECTIONS */
+
+@media only screen and (max-width: 599px) {
+    .section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+
+
+.section {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.light-section {
+    background-color: white
+}
+
+.dark-section {
+    background-color: #161a1d
+}
+
+.light-section p { color: #000000 }
+.light-section a { color: #343a40 }
+
+.dark-section p { color: #ffffff }
+.dark-section a { color: #f5f3f4 }
+
+
+
+
+
+
+
+
+
+
+
+/* TABELLEN */
+
+@media only screen and (max-width: 599px) {
+  table {
+      width: 100%
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  table {
+      width: 600px
+  }
+}
+
+table, th, td {
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+th, td {
+    text-align: left;
+    font-family: 'Montserrat';
+    color: white;
+}
+
+th { font-weight: 500; }
+td { font-weight: 400; }
+
+tr { display: block; float: left; width: 50%; }
+th, td { display: block; }
+
+tr>*:not(:first-child) { border-top: 0; }
+tr:not(:first-child)>* { border-left:0; }
+
+
+
+
+
+
+
+
+/* ABSÄTZE */
+p {
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+
+
+
+/* PROFILE */
+.user-img {
+    width: 200px;
+    box-shadow: 6px 6px 10px hsla(300,15%,25%,0.3);
+    border-radius: 100px
+}
+
+
+
+
+
+/* SCHRIFTARTEN */
+special {
+    font-family: 'Caveat', fantasy;
+    font-size: 26px
+}
